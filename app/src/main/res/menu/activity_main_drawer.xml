@@ -12,7 +12,7 @@
             android:title="Top Rated" />
         <item
             android:id="@+id/nav3"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_favorite_black_24dp"
             android:title="Favorite" />
     </group>
 

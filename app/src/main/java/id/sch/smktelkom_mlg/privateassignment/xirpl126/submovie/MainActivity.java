@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             setTitle("Top Rated");
         } else if (id == R.id.nav3) {
             fragment = new SaveFragment();
-            setTitle("Saved");
+            setTitle("Favorite");
         }
 
         getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment).commitNow();
